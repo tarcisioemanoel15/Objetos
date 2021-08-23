@@ -9,7 +9,7 @@ function Instrumentos(nome, preco, cor){
 Instrumentos.prototype.aumento = function(quantia){this.preco += quantia;};
 Instrumentos.prototype.desconto = function(quantia){this.preco -= quantia;};
 
-//auterando o aumenta de cima
+//alterando o aumenta de cima
 Instrumentos.prototype.aumento = function(percentual){this.preco = this.preco + (this.preco * (percentual / 100));}
 function Guitarra(nome, preco, cor){ Instrumentos.call(this, nome, preco, cor)};
 

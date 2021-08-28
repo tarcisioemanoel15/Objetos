@@ -41,21 +41,17 @@ Validacpf.prototype.isSequencia = function() {
     return sequencia === this.cpflinpo;
 };
 
-
-
-
 //111.111.111-11
 const cpf = new Validacpf('070.987.720-03'); 
 // console.log(cpf.cpflinpo)
 // console.log(cpf.valida())
+//console.log(cpf.valida())
+/**/
 
-console.log(cpf.valida())
-/*
 if(cpf.valida()){
     console.log('CPF VALIDO');
-    
-    }else{
-        
-        console.log('cpf Invalido');
+}else{
+    console.log('cpf Invalido');
 }
-    */
+    
+        

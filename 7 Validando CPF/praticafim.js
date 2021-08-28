@@ -1,4 +1,4 @@
-// 705.484.450-52   070.987.720-03
+// 705.484.450-52   
 
 function Validandocpf(enviacpf){
     Object.defineProperty(this, 'cpfLim', {
